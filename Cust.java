@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Cust {
     public int money;//余额
     public int count;
-    public String time;
+    public String time;//时间
     public String remark;
     public String sort;
 
