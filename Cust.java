@@ -2,7 +2,7 @@ package Cust;
 
 import java.util.Scanner;
 public class Cust {
-    public int money;
+    public int money;//余额
     public int count;
     public String time;
     public String remark;
