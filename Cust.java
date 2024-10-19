@@ -143,7 +143,15 @@ public class Cust {
                     }
                     break;
 
-            }
+                case 4:
+                    System.out.print("请输入日期（YYYY-MM-DD）：");
+                    String date = sc.next();
+                    for (int j = 0; j < i; j++) {
+                        if(date.equals(array[j].time)){
+                            array[j].print(array, i);
+                        }
+                    }    
+	    }
         }
     }
 }
