@@ -144,6 +144,7 @@ public class Cust {
                     break;
 
                 case 4:
+		    //账单查询：用户可以按照指定日期、日期范围或类别查询账单，收入和支出分开显示。
                     System.out.print("请输入日期（YYYY-MM-DD）：");
                     String date = sc.next();
                     for (int j = 0; j < i; j++) {
